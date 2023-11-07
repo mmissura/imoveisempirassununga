@@ -10,10 +10,10 @@ export const App = () => {
         Encontre imobiliárias de Pirassununga e bons negócios
       </h2>
       <div className="grid grid-cols-12 gap-6 my-6">
-        <div className="w-52 h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-green-600"></div>
-        <div className="w-52 h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-blue-600"></div>
-        <div className="w-52 h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-red-600"></div>
-        <div className="w-52 h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-yellow-600"></div>
+        <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-green-600"></div>
+        <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-blue-600"></div>
+        <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-red-600"></div>
+        <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-3 col-span-6 bg-yellow-600"></div>
       </div>
       <h2 className="text-2xl text-center font-bold 2xl:text-4xl xl:text-4xl lg:text-2xl mb-4">
         Tem uma imobiliária e quer ver sua marca aqui? Fale conosco.
