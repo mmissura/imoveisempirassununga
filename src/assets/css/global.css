@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
     font-family: 'Ubuntu', sans-serif;
+} */
+
+.bg-map {
+    background: url('../images/pirassununga.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-black {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    flex-direction: column;
+    padding: 12px;
 }
