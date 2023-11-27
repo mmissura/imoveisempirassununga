@@ -24,7 +24,7 @@ export const App = () => {
             Logo 4
           </div>
         </div>
-        <h2 className="text-2xl text-center 2xl:text-4xl xl:text-4xl lg:text-2xl mb-12 text-yellow-300 px-12">
+        <h2 className="text-2xl text-center 2xl:text-4xl xl:text-4xl lg:text-2xl mb-8 text-yellow-300 px-12">
           Tem uma imobiliária e quer ver sua marca aqui?
         </h2>
         <div>
@@ -32,7 +32,7 @@ export const App = () => {
             <BsWhatsapp /> Fale conosco
           </button>
         </div>
-        <footer className="text-white pb-6 text-sm">
+        <footer className="text-white pb-6 text-sm mt-20">
           &copy; Copyright 2023 by MM Desenvolvimentos
         </footer>
       </div>
