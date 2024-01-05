@@ -12,28 +12,32 @@ export const App = () => {
         </h2>
         <div className="grid grid-cols-12 gap-7 2xl:my-20 xl:my-20 lg:my-20 my-12">
           <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Logo 1
+            Sua imobiliária aqui
           </div>
           <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Logo 2
+            Sua imobiliária aqui
           </div>
           <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Logo 3
+            Sua imobiliária aqui
           </div>
           <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Logo 4
+            Sua imobiliária aqui
           </div>
         </div>
         <h2 className="text-2xl text-center 2xl:text-4xl xl:text-4xl lg:text-2xl mb-8 text-yellow-300 px-12">
           Tem uma imobiliária e quer ver sua marca aqui?
         </h2>
         <div>
-          <button className="bg-green-700 text-white py-3 px-5 flex justify-center items-center gap-3 rounded-xl mb-12">
+          <a
+            href="https://wa.me/5519997468205"
+            target="_blank"
+            className="bg-green-700 text-white py-3 px-5 flex justify-center items-center gap-3 rounded-xl mb-12"
+          >
             <BsWhatsapp /> Fale conosco
-          </button>
+          </a>
         </div>
         <footer className="text-white pb-6 text-sm mt-20">
-          &copy; Copyright 2023 by MM Desenvolvimentos
+          &copy; Copyright 2023 by Missura Networks
         </footer>
       </div>
     </div>
