@@ -37,7 +37,7 @@ export const App = () => {
           </a>
         </div>
         <footer className="text-white pb-6 text-sm mt-20">
-          &copy; Copyright 2023 by Missura Networks
+          &copy; Copyright 2024 by Missura Networks
           <p className='text-center mb-0'>CNPJ: 53.447.302/0001-79</p>
         </footer>
       </div>
