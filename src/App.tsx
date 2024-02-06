@@ -11,17 +11,45 @@ export const App = () => {
           Encontre imobiliárias da cidade e bons negócios!
         </h2>
         <div className="grid grid-cols-12 gap-7 2xl:my-20 xl:my-20 lg:my-20 my-12">
-          <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Sua imobiliária aqui
+        <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
+            <a href='https://www.icontato.com.br/index.php'
+            target="_blank"
+            className="bg-white text-black py-3 px-10 text-center mt-12 flex justify-center items-center gap-3 rounded-xl mb-12"
+            >
+              Imobiliaria 1
+            </a>
+            {/* Sua imobiliária aqui */}
+
           </div>
           <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Sua imobiliária aqui
+            <a href='https://www.andreanegociosimobiliarios.com.br/'
+            target="_blank"
+            className="bg-white text-black py-3 px-10 text-center mt-12 flex justify-center items-center gap-3 rounded-xl mb-12"
+            >
+              Imobiliaria 2
+            </a>
+            {/* Sua imobiliária aqui */}
+
           </div>
           <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Sua imobiliária aqui
+            <a href='https://www.adilsonimoveis.com.br/'
+            target="_blank"
+            className="bg-white text-black py-3 px-10 text-center mt-12 flex justify-center items-center gap-3 rounded-xl mb-12"
+            >
+              Imobiliaria 3
+            </a>
+            {/* Sua imobiliária aqui */}
+
           </div>
           <div className="2xl:w-52 xl:w-52 lg:w-52 w-full h-52 2xl:col-span-3 xl:col-span-3 lg:col-span-6 col-span-12 bg-white flex justify-center items-center">
-            Sua imobiliária aqui
+            <a href='https://www.portalpirassununga.com.br/'
+            target="_blank"
+            className="bg-white text-black py-3 px-10 text-center mt-12 flex justify-center items-center gap-3 rounded-xl mb-12"
+            >
+              Imobiliaria 4
+            </a>
+            {/* Sua imobiliária aqui */}
+
           </div>
         </div>
         <h2 className="text-2xl text-center 2xl:text-4xl xl:text-4xl lg:text-2xl mb-8 text-yellow-300 px-12">
